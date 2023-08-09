@@ -1,0 +1,81 @@
+/* Estilos para o corpo da página */
+body {
+  display: flex;
+  text-align: left;
+  justify-content: center;
+  align-items: center;
+  min-height: 100vh;
+  background: linear-gradient(to bottom right, #b3eab2, #25c305);
+  
+  font-family: Arial, sans-serif;
+}
+
+/* Estilos para o contêiner do formulário */
+.form-container {
+  text-align: left;
+  background-color: blueviolet;
+  border-radius: 10px;
+  box-shadow: 0 6px 8px rgba(0, 0, 0, 0.1);
+  padding: 20px;
+  width: 400px;
+  text-align: center;
+  color: white;
+}
+
+/* Estilos para as labels do formulário */
+.form-label {
+  display: block;
+  text-align: left;
+}
+
+
+/* Estilos para os campos de entrada */
+.form-input {
+  width: 100%;
+  height: 30px;
+  margin-bottom: 15px;
+  
+  
+  border: 1px solid #ccc;
+  border-radius: 5px;
+}
+
+/* Estilos para os botões */
+.form-button {
+  padding: 10px 20px;
+  margin: 10px;
+  border: none;
+  border-radius: 5px;
+  background-color: lime;
+  color: black;
+  cursor: pointer;
+}
+
+.form-button-secondary {
+  background-color: #ccc;
+  color: #333;
+}
+
+/* Estilos para o modal */
+.modal {
+  position: fixed;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  background-color: black;
+  color: white;
+  padding: 20px;
+  border-radius: 10px;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+  max-width: 90%;
+  z-index: 1000;
+}
+
+.modal-header {
+  font-size: 24px;
+  margin-bottom: 10px;
+}
+
+.modal-content {
+  margin-top: 20px;
+}
